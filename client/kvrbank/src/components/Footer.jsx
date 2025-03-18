@@ -1,9 +1,10 @@
 import React from 'react'
 import {
-    FaDribbbleSquare,
+    FaWhatsappSquare,
     FaFacebookSquare,
-    FaGithubSquare,
-    FaInstagram
+    FaDiscord,
+    FaInstagram,
+    FaTelegram
 } from 'react-icons/fa'
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -11,7 +12,7 @@ const Footer = () => {
     return (
         <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
             <div>
-                <h1 className='w-full text-3xl font-bold text-[#00df9a]'>React.</h1>
+                <h1 className='w-full text-3xl font-bold text-[#00df9a]'>KVR Bank</h1>
                 <p className='py-4'>
                     It is a long established fact that a reader will be distracted by the readable content of a
                     page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
@@ -22,8 +23,9 @@ const Footer = () => {
                     <FaFacebookSquare size={30} />
                     <FaInstagram size={30} />
                     <FaXTwitter size={30} />
-                    <FaGithubSquare size={30} />
-                    <FaDribbbleSquare size={30} />
+                    <FaDiscord size={30} />
+                    <FaWhatsappSquare size={30} />
+                    <FaTelegram size={30} />
                 </div>
             </div>
             <div className='lg:col-span-2 flex justify-between mt-6'>

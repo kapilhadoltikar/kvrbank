@@ -17,7 +17,7 @@ const Hero = () => {
           {/* typewriter effect to the text */}
           <div className='pl-2 md:text-5xl sm:text-4xl test-xl md:pl-4 font-bold'>
             <Typewriter
-              words={['Business', 'Home', 'Car', 'Personal']}
+              words={['Home', 'Car', 'Personal', 'Business']}
               loop={10}
               cursor
               cursorStyle=''
